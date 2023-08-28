@@ -9,14 +9,14 @@
   align-items: center;
 }
 
-.task-title {
+.task-title,
+.remove-task-button {
   cursor: pointer;
 }
 
-.remove-task-button,
-.see-task-details-button {
+.remove-task-button {
   background-color: #444;
   border: none;
-  font-size: 24px;
+  font-size: 18px;
   color: orange;
 }

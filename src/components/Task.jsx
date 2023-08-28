@@ -1,5 +1,4 @@
 import React from "react";
-import { CgClose, CgInfo } from "react-icons/cg";
 
 import "./Task.css";
 
@@ -18,10 +17,7 @@ const Task = ({ task, handleTaskClick, handleTaskDeletion }) => {
           className="remove-task-button"
           onClick={() => handleTaskDeletion(task.id)}
         >
-          <CgClose />
-        </button>
-        <button className="see-task-details-button">
-          <CgInfo />
+          X
         </button>
       </div>
     </div>
